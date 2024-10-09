@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav ul li {
+    margin: 0 10px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #333;
+    }
+    
+    .signup {
+    text-align: right;
+    }
+    
+    .signup form {
+    display: inline-block;
+    }
+    
+    .signup form input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    }
+    
+    .signup form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    .hero {
+    text-align: center;
+    }
+    
+    .deal-timer {
+    margin-bottom: 20px;
+    }
+    
+    .deal-details {
+    margin-bottom: 20px;
+    }
+    
+    .buy-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .deals {
+    margin-top: 40px;
+    }
+    
+    .deal-cards {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .deal-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .deal-card img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .deal-info {
+    margin-bottom: 10px;
+    }
+    
+    .see-deal-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .about-deals, .twitter-buzz, .other-pages {
+    display: inline-block;
+    margin: 0 20px;
+    }
